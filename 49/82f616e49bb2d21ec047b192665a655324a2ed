@@ -1,0 +1,19 @@
+tccv.cls
+  s_157670ae841478::t_0eac6b53b9d97f 162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "4982f616e49bb2d21ec047b192665a655324a2ed",
+  "prompts": {},
+  "sessions": {
+    "s_157670ae841478": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a05aed1a-eff3-48bc-b3f2-4b0539e34e75",
+        "model": "claude-haiku-4-5-20251001"
+      },
+      "human_author": "Sayan Das <sayan.das@deliveryhero.com>"
+    }
+  }
+}
