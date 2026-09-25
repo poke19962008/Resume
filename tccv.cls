@@ -158,10 +158,8 @@
 % \item{fact}{description}
 % ]|
 \newenvironment{factlist}{%
-    \newdimen\unbaseline
-    \unbaseline=\dimexpr-\baselinestretch\baselineskip\relax
     \renewcommand\item[2]{%
-	\textsc{##1} & {\raggedright ##2\medskip\\}\\[\unbaseline]}
+	\textsc{##1} & {\raggedright ##2} \\[0.5em]}
     \tabularx{\linewidth}{rX}}
     {\endtabularx}
 %%
